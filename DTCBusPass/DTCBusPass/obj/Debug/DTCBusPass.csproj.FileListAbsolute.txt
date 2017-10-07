@@ -1,0 +1,5 @@
+E:\Projects\DTCBusWebApp\DTCBusPass\DTCBusPass\bin\DTCBusPass.dll
+E:\Projects\DTCBusWebApp\DTCBusPass\DTCBusPass\bin\DTCBusPass.pdb
+E:\Projects\DTCBusWebApp\DTCBusPass\DTCBusPass\obj\Debug\DTCBusPass.csprojResolveAssemblyReference.cache
+E:\Projects\DTCBusWebApp\DTCBusPass\DTCBusPass\obj\Debug\DTCBusPass.dll
+E:\Projects\DTCBusWebApp\DTCBusPass\DTCBusPass\obj\Debug\DTCBusPass.pdb
