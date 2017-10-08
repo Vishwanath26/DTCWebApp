@@ -1,7 +1,54 @@
-﻿.customDiv {    
-    min-height :300px; 
-    text-align:center;
-    font-size:x-large;
-    background-color:silver;
+﻿#HeaderDiv {
+    height: 90px !important;    
+    padding-top: 18px;
+    background-color: rgba(12, 2, 2, 0.71);
+    height: 10%;
+    font-size: xx-large;
+    text-align: initial;
+    color: white;
+    font-weight: 500;
 }
-
+#HeaderTextDiv {
+    width: 20%;
+    margin-right:10%;
+    float: left;
+    font-size: xx-large;
+    margin-left: 10%;
+}
+#UserDiv {  
+    font-size:15px;  
+    display:inline-block;
+    width:30%; 
+    margin-left:20%;      
+}
+#EmailDiv {
+    margin-right:5%;
+    float:left;
+    width:40%;
+}
+#PasswordDiv {
+    float:left;
+    width:40%;
+}
+.input-style 
+{
+    height:22px;
+    width:100%
+}
+#ButtonDiv {
+    float:right;
+}
+#button-text {
+    width: 100%;
+    border: 2px solid ghostwhite;    
+    margin-top: 20px;    
+    color: white;
+    background-color: rgb(109, 177, 171);
+    border-radius: 6px;
+    cursor:pointer;     
+    transition-duration: 0.4s !important;
+}
+.hover-class:hover {
+    background-color: #4CAF50;
+    color: white;
+}
