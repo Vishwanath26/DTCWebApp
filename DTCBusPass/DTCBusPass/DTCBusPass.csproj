@@ -57,12 +57,52 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="UI\CSS\Bootstrap\bootstrap-grid.css" />
+    <Content Include="UI\CSS\Bootstrap\bootstrap-grid.min.css" />
+    <Content Include="UI\CSS\Bootstrap\bootstrap-reboot.css" />
+    <Content Include="UI\CSS\Bootstrap\bootstrap-reboot.min.css" />
+    <Content Include="UI\CSS\Bootstrap\bootstrap.css" />
+    <Content Include="UI\CSS\Bootstrap\bootstrap.min.css" />
+    <Content Include="UI\CSS\customstyles.css" />
+    <Content Include="UI\HTML\Index\Index.html" />
+    <Content Include="UI\IMAGES\Index_Bus.JPG" />
+    <Content Include="UI\SCRIPTS\Library\Bootstrap\bootstrap.js" />
+    <Content Include="UI\SCRIPTS\Library\Bootstrap\bootstrap.min.js" />
+    <Content Include="UI\SCRIPTS\Library\Bootstrap\tether.js" />
+    <Content Include="UI\SCRIPTS\Library\Bootstrap\tether.min.js" />
+    <Content Include="UI\SCRIPTS\Library\jquery-3.2.1.js" />
+    <Content Include="UI\SCRIPTS\Library\jquery-3.2.1.min.js" />
+    <Content Include="UI\SCRIPTS\System_Scripts\Index\Index.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="UI\CSS\Bootstrap\bootstrap-grid.css.map" />
+    <Content Include="UI\CSS\Bootstrap\bootstrap-grid.min.css.map" />
+    <Content Include="UI\CSS\Bootstrap\bootstrap-reboot.css.map" />
+    <Content Include="UI\CSS\Bootstrap\bootstrap-reboot.min.css.map" />
+    <Content Include="UI\CSS\Bootstrap\bootstrap.css.map" />
+    <Content Include="UI\CSS\Bootstrap\bootstrap.min.css.map" />
+    <Content Include="UI\FONTS\Lato-Black.ttf" />
+    <Content Include="UI\FONTS\Lato-BlackItalic.ttf" />
+    <Content Include="UI\FONTS\Lato-Bold.ttf" />
+    <Content Include="UI\FONTS\Lato-BoldItalic.ttf" />
+    <Content Include="UI\FONTS\Lato-Hairline.ttf" />
+    <Content Include="UI\FONTS\Lato-HairlineItalic.ttf" />
+    <Content Include="UI\FONTS\Lato-Heavy.ttf" />
+    <Content Include="UI\FONTS\Lato-HeavyItalic.ttf" />
+    <Content Include="UI\FONTS\Lato-Italic.ttf" />
+    <Content Include="UI\FONTS\Lato-Light.ttf" />
+    <Content Include="UI\FONTS\Lato-LightItalic.ttf" />
+    <Content Include="UI\FONTS\Lato-Medium.ttf" />
+    <Content Include="UI\FONTS\Lato-MediumItalic.ttf" />
+    <Content Include="UI\FONTS\Lato-Regular.ttf" />
+    <Content Include="UI\FONTS\Lato-Semibold.ttf" />
+    <Content Include="UI\FONTS\Lato-SemiboldItalic.ttf" />
+    <Content Include="UI\FONTS\Lato-Thin.ttf" />
+    <Content Include="UI\FONTS\Lato-ThinItalic.ttf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,12 +115,6 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
     <Folder Include="Services\" />
-    <Folder Include="UI\CSS\" />
-    <Folder Include="UI\FONTS\" />
-    <Folder Include="UI\HTML\" />
-    <Folder Include="UI\IMAGES\" />
-    <Folder Include="UI\SCRIPTS\Library\" />
-    <Folder Include="UI\SCRIPTS\System_Scripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
