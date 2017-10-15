@@ -5,9 +5,9 @@
         ValidateElementUsingRegex(EmailTextBox,"email");
     });
 
-    $('#LoginButtonDiv').click(function () {
-        alert('Site In Progress');
-    });
+    //$('#LoginButtonDiv').click(function () {
+    //    alert('Site In Progress');
+    //});
     $('#SubmitButtonDiv').click(function () {
         alert('Congratulations!! You are registered for a DTC bus pass');
     });
@@ -33,5 +33,36 @@
     $('#input-UserEmail').unbind().keyup(function (e) {
         var EmailElem = document.getElementById("input-UserEmail");
         ValidateElementUsingRegex(EmailElem,"email");
-    });    
+    });
+    
+    $('#SubmitButtonDiv').unbind().click(function () {
+        //validation
+        var res = false;        
+        $("input").each(function () {            
+            if ($(this).attr('style') && $(this).attr('style').indexOf('red') > -1) {
+                res = true;
+                return;
+            }
+        });
+
+        if (res) {
+            alert(' Some invalid fields');
+        }
+        else {
+
+        }
+    });
+    $('#button-text').unbind().click(function () {
+        $.ajax({
+            type: "POST",
+            url: "http://localhost:1461/Services/UserInteraction.svc/GetUserDetails",
+            data: JSON.stringify({ emailAddress: "khulbe.nitin@gmail.com"  }),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (msg) {
+                // Replace the div's content with the page method's return.
+                alert("resr");
+            }
+        });
+    });
 });
