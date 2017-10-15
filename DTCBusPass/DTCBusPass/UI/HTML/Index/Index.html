@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-   <title></title>
+    <title></title>
     <script src="../../SCRIPTS/Library/jquery-3.2.1.min.js"></script>
     <script src="../../SCRIPTS/Library/Bootstrap/tether.js"></script>
     <script src="../../SCRIPTS/Library/Bootstrap/tether.min.js"></script>
@@ -12,7 +12,7 @@
     <link href="../../CSS/customstyles.css" rel="stylesheet" />
 </head>
 <body>
-    <div id="ContentDiv">
+    <div id="ContentDiv" style="height: 100%;">
         <div id="HeaderDiv">
             <div id="HeaderTextDiv">
                 DTC BUS PASS
@@ -26,15 +26,65 @@
                 <div id="PasswordDiv">
                     Password
                     <br />
-                <input type="text" id="=input-password" class="input-style" />
+                    <input type="text" id="input-password" class="input-style" />
                 </div>
-                <div id="ButtonDiv">
+                <div id="LoginButtonDiv">
                     <div id="button-text">
                         Login
                     </div>
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
+    <div id="MainDiv">
+        <div id="HeaderMainDiv">
+            <div id="ContentMainDiv">
+                <div id="SignUpDiv">SIGN UP</div>
+                <div id="RegistrationDiv">
+                    <div id="UserNameDiv">
+                        <div id="FirstNameDiv">
+
+                            <input type="text" id="input-FirstName" placeholder="First Name" />
+                        </div>
+                        <div id="SurNameDiv">
+                            <input type="text" id="input-SurName" placeholder="Surname" />
+                        </div>
+                    </div>
+                    <div id="UserEmailDiv">
+                        <input type="email" id="input-UserEmail" placeholder="Email address" />
+                    </div>
+                    <div id="UserPasswordDiv">
+                        <input type="password" id="Password" style="width: 89%; border: 2px solid #585858; border-radius: 5px;" placeholder="New Password" />
+                    </div>
+
+                    <div id="textDiv" style="height: 28px; width: 60%; margin-left: 15%; margin-top: 6px;">
+                        <div id="birthDayTextDiv">BirthDay</div>
+                        <div id="locationTextDiv">Location</div>
+                    </div>
+                    <div id="textInputDiv">
+                        <div id="dateDiv">
+                            <input type="date" id="DOB" />
+                        </div>
+                        <div id="LocationDiv">
+                            <select id="selectDiv">
+                                <option selected="selected" value="Central Delhi">Central Delhi</option>
+                                <option value="East Delhi">East Delhi</option>
+                                <option value="West Delhi">West Delhi</option>
+                                <option value="North Delhi">North Delhi</option>
+                                <option value="South Delhi">South Delhi</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div id="SubmitButtonDiv">
+                        <input type="button" value="Submit" id="button-text1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="errorDiv" style="display: none;">
+    </div>
+
 </body>
 </html>

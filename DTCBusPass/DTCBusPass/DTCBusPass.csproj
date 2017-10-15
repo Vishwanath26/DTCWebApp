@@ -66,6 +66,7 @@
     <Content Include="UI\CSS\customstyles.css" />
     <Content Include="UI\HTML\Index\Index.html" />
     <Content Include="UI\IMAGES\Index_Bus.JPG" />
+    <Content Include="UI\IMAGES\round-error-icon-16.jpg" />
     <Content Include="UI\SCRIPTS\Library\Bootstrap\bootstrap.js" />
     <Content Include="UI\SCRIPTS\Library\Bootstrap\bootstrap.min.js" />
     <Content Include="UI\SCRIPTS\Library\Bootstrap\tether.js" />
